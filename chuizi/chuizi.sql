@@ -1,0 +1,17 @@
+#注释
+/*多行注释*/
+SET NAMES UTF8;
+DROP DATABASE IF EXISTS chuizi;
+CREATE DATABASE chuizi CHARSET=UTF8;
+USE chuizi;
+
+/*登录用户表*/
+CREATE TABLE log(
+    uid INT PRIMARY KEY AUTO_INCREMENT,
+    uname VARCHAR(36),
+    upwd VARCHAR(32)
+);
+INSERT INTO log VALUES
+(null,"15145603097","123456"),
+(null,"18404569652","456789"),
+(null,"175@qq.com","521521");

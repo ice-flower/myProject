@@ -1,0 +1,32 @@
+body,ul{
+    margin:0px;
+}
+body,a{
+    font-size: 14px;
+    color:#666; 
+}
+h1,h3{
+    margin: 0;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+ul{
+    padding-left: 0px;
+}
+li{
+    list-style: none;
+
+}
+.clear::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.hidden{
+    opacity:0 !important;
+}
+.danger{
+    border:1px solid #e4393c !important;
+}

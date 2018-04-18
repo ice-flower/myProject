@@ -1,0 +1,233 @@
+#log{
+    width: 100%;
+    height: 800px;
+    background: url("../images/log/bg_color.png") repeat 0 0;
+}
+.log_center{
+    width: 452px;
+    height: 500px;
+    background: url("../images/log/bg_form.png") repeat-x 0 200px;
+    border:1px solid #dadada;
+    border-radius: 10px;
+    position: absolute;
+    left:50%;
+    top:100px;
+    margin-left: -226px;
+}
+.text{
+    width:100%;
+    height: 200px;
+    background: #fff;
+    border-radius: 10px 10px 0 0;
+
+}
+.icon{
+    width:150px;
+    height: 120px;
+    margin: auto;
+    padding-top:35px; 
+    background: url("../images/log/icon.png") no-repeat 0 0;
+}
+.text h3{
+    text-align: center; 
+}
+.uname,.upwd{
+    width:350px;
+    height:50px;
+    border:#ccc solid 1px;
+    border-radius: 6px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    position: relative;
+    transition:all 1s;
+    
+}
+.uname_err,.upwd_err{
+    position: absolute;
+    width:134px;
+    height: 25px;
+    background: #d16d62;
+    left:198px;
+    top:12px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 25px;
+    color:#fff;
+    padding: 0 5px;
+    transition:opacity 1s;
+    opacity:1;
+}
+.upwd_err{
+    text-align: center;
+}
+
+.uname_img,.upwd_img{
+    width:50px;
+    height: 50px;
+    float: left;
+    border-radius: 6px 0 0 6px;
+    border-right: #ccc solid 1px;
+}
+.uname_img{
+    background:#f8f8f8 url("../images/log/icon_title.png") no-repeat 0 0;
+}
+.upwd_img{
+    background:#f8f8f8 url("../images/log/icon_title.png") no-repeat -45px 0;
+}
+
+#ipt_uname,#ipt_upwd{
+    width:280px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top:5px;
+    font-size: 16px;
+    font-weight: 100;
+    border:none;
+    outline: none;
+    background: none;
+}
+.self{
+    width: 350px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+#radio{
+    float: left;
+}
+.self_ul{
+    width:185px;
+    float: right;
+}
+.self_ul li{
+    float: left;
+    padding: 0 5px;
+}
+.self_ul li a{
+    color: #5079d9;
+    font-size: 12px;
+}
+.btn{
+    margin: 0 auto;
+    width: 350px;
+    height: 50px;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    border-bottom:1px #ccc solid;
+}
+.btn input{
+    text-align: center;
+    width:350px;
+    height: 50px;
+    outline: none;
+    border:none;
+    border:#ccc solid 1px;
+    border-radius: 6px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #fff;
+    transition:all .4s;
+}
+.btn input.ok{
+    background: #0948c5;
+}
+.btn input.no{
+    background: #b7c9ec;
+
+}
+.icon_qq{
+    width:350px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 40px;
+    font-size: 12px;
+}
+.qq_left{
+    float: left;
+}
+.qq_ul{
+    height: 20px;
+    float: left;
+    margin-top:10px;
+}
+.qq_ul li{
+    float: left;
+}
+.li_a,.li_b,.li_c{
+    width:20px;
+    height: 20px;
+    margin-left: 15px;
+    background: url("../images/log/icons_qq.png") no-repeat 0 0;
+}
+.li_a{
+    background: url("../images/log/icons_qq.png") no-repeat 0 0;
+}
+.li_b{
+    background: url("../images/log/icons_qq.png") no-repeat -33px 0;
+}
+.li_c{
+    background: url("../images/log/icons_qq.png") no-repeat -66px 0;
+}
+.li_a:hover{
+    background: url("../images/log/icons_hover.png") no-repeat 0 0;
+}
+.li_b:hover{
+    background: url("../images/log/icons_hover.png") no-repeat -33px 0;
+}
+.li_c:hover{
+    background: url("../images/log/icons_hover.png") no-repeat -66px 0;
+}
+.qq_right{
+    float: right;
+    font-size: 12px;
+
+}
+.qq_right a{
+    font-size: 12px;
+    transition: all .15s linear;
+
+}
+.qq_right a:hover{
+    color:#5079d9;
+
+}
+
+/* 地址 */
+#add{
+    width:666px;
+    height: 40px;
+    position: relative;
+    top:660px;
+    left:50%;
+    margin-left:-333px;
+
+
+}
+.add_left{
+    float: left;
+    font-size: 12px;
+}
+.add_ul{
+    float: right;
+}
+.add_ul li{
+    float: left;
+    padding-left: 10px;
+}
+.add_ul li a{
+    font-size: 12px;
+    color:#5079d9;
+}
+.add_top{
+    height: 20px;
+    line-height: 20px;
+}
+.add_bottom{
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+.add_bottom a{
+    font-size: 12px;
+    color:#5079d9;
+}
