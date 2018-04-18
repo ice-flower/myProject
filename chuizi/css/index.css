@@ -59,7 +59,7 @@
     background: url(../images/header/xiaotubiao.png) no-repeat -155px 0;
 }
 .header_nav2 .header_log_in a:hover{
-        background: url(../images/header/xiaotubiao.png) no-repeat -5px 0;
+    background: url(../images/header/xiaotubiao.png) no-repeat -5px 0;
 }
 .header_nav2 .header_shopping .header_sa{
     float: left;
@@ -70,12 +70,10 @@
 .header_nav2 .header_shopping .header_sa:hover{
     background: url(../images/header/xiaotubiao.png) no-repeat 0px -22px;
 }
-
-
-
 .header_nav2 .header_shopping span{
     width:20px;
     height: 20px;
+    line-height:20px;
     float: left;
     border-radius: 50%;
     text-align: center;
@@ -107,6 +105,45 @@
 .nav li{
     float: left;
     padding:0 20px;
+}
+/*固定导航*/
+.fixed.nav{
+    display:none;
+    width:100%;
+    position: fixed;
+    top:0;
+    left:0;
+    background: #f7f7f7;
+    background-image: linear-gradient(#fff,#f1f1f1);
+    z-index: 1000;
+    border-bottom: 1px solid #dadada;
+    box-shadow: 0 2px 4px rgba(0,0,0,.04);
+    padding:0px;
+}
+.fixed.nav>div{
+    width:1200px;
+    margin:0 auto;
+}
+.fixed.nav>div>ul{
+    line-height: 60px;
+    height:60px;
+}
+.fixed.nav>div>ul:first-child{
+    float: left;
+}
+.fixed.nav>div>.header_nav2{
+    padding-top:16px;
+    height:20px;
+    margin-top:0;
+}
+.fixed.nav>div>.header_nav2>li{
+    padding:0;
+}
+.fixed.nav>div>.header_nav2 .header_log_in a:hover{
+    background-position:-215px -1px;
+}
+.fixed.nav>div>.header_nav2 .header_shopping .header_sa:hover{
+    background-position:-210px -22px;
 }
 /* 轮播图 */
 
